@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --clr-grey: #666666;
+  --clr-white: #ffffff;
+  --clr-bg: #f7f7f7;
+  --clr-accent: #d4af37;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--clr-bg);
+  color: var(--clr-grey);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.ceo {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--clr-white);
+}
+
+.ceo-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.role, .matric {
+  font-size: 1rem;
+  color: var(--clr-grey);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--clr-accent);
+}
+
+.logo {
+  width: 12rem;
+}
+
+.try-btn {
+  background-color: var(--clr-white);
+  color: var(--clr-accent);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-button {
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.feature {
+  text-align: center;
+  background-color: var(--clr-white);
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.feature h2 {
+  margin: 1rem 0;
+}
+
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+}
+
+.footer {
+  background-color: var(--clr-grey);
+  color: var(--clr-white);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
